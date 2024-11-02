@@ -1,0 +1,289 @@
+@font-face {
+    font-family: cupid;
+    src: url(fonts/CircularSpotifyTxT-Bold.ttf);
+}
+body{
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 40px;
+    padding-left: 18%;
+
+}
+
+.nav-logo {
+    height: 80px;
+    width: 100%; 
+    background-color: rgb(255, 247, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.home-button {
+    background-color: transparent;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: -1px;
+    margin-left: 4%;
+}
+
+.home-button:hover{
+    /* transform: scale(1.1 , 1.1); */
+    transition: 0.6s;
+    text-decoration: underline;
+    color: #006241; 
+}
+
+.gift-button {
+    background-color: transparent;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: -1px;
+    margin-left: 2%;
+}
+
+.gift-button:hover{
+    /* transform: scale(1.1 , 1.1); */
+    transition: 0.6s;
+    
+    color: #006241; 
+}
+
+.green-tag {
+    height: 80px;
+    width: 100%;
+    background-color: #006241;
+    position: absolute;
+    top: 80px;
+}
+
+.user-icon{
+    padding-left: 25% ;
+}
+
+.know {
+    font-size: 80%;
+    font-weight:500;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border-color:aliceblue ;
+
+}
+
+.know:hover{
+    transition: 0.6s;
+    background-color: #39866c;
+}
+
+.know1 {
+    font-size: 100%;
+    font-weight:500;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 0;
+
+}
+
+.know1:hover{
+    transition: 0.6s;
+    /* background-color: #39866c; */
+}
+
+.button1{
+    padding-left: 80%;
+    padding-top: 3%;
+}
+
+.button{
+    padding-left: 65%;
+    padding-top: 1%;
+}
+
+.card1{
+    padding-top: 10%;
+    padding-left: 23%;
+}
+
+.celebration-card { 
+   height: 30vh;
+   width: 50vw;
+   background-image: radial-gradient( rgb(255, 123, 0), rgb(255, 187, 0));
+   border-radius: 20px ;
+
+}
+
+#foodcart {
+    height: 199px;
+    padding-top: 8%;
+    position: absolute;
+    top: 16%;
+}
+
+.intro {
+    font-size: 140%;
+    padding-left: 23%;
+    padding-top: 5%;
+    color: aliceblue;
+    font-family: cupid;
+    
+}
+
+.quote1 {
+    font-size: 120%;
+    padding-left: 23%;
+    padding-top: -1%;
+    color: aliceblue;
+    font-family: cupid;
+    
+}
+
+.quote2 {
+    font-size: 90%;
+    padding-left: 23%;
+    padding-top: -1%;
+    color: aliceblue;
+    font-family: cupid;
+    font-weight: 50;
+}
+
+.text1 {
+    height: 5vh;
+    width: 36vw;
+    padding-left: 6.5%;
+}
+
+.menu {
+    padding-top: 4% ;
+    padding-left: 23%;
+}
+
+.menu-main {
+    height: 20vh;
+    width: 60vw;
+    display: flex;
+    align-items: space-around; 
+    
+}
+
+.fries {
+    font-family: cupid;
+    color:#006241;
+}
+
+.barista {
+    padding-top: 4%;
+}
+
+.barista-main {
+    height: 35vh;
+    width: 99vw;
+    background-color:rgb(237,235,233);
+    
+
+  
+}
+
+.rector{
+    font-family: cupid;
+    color: #006241;
+    padding-left: 23%;
+    padding-top: 1.7%;
+    font-size: 26px;
+}
+
+.cappucino {
+    padding-left: 19%;
+}
+
+.cappucino-main {
+    height: 18vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 3px rgb(156, 156, 156) ;
+}
+
+.another1 {
+    padding-left: 42%;
+    position: absolute;
+    top: 107.7687%;
+}
+
+.another1-main {
+    height: 18vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 3px rgb(156, 156, 156) ;
+}
+
+.another2 {
+    padding-left: 69%;
+    position: absolute;
+    top: 107.7687%;
+    left: -4%;
+}
+
+.another2-main {
+    height: 18vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 3px rgb(156, 156, 156) ;
+}
+
+.gap {
+    height: 10vh;
+    width: 99.1vw;
+    background-color: transparent;
+}
+
+.end-tag {
+    height: 85vh;
+    width: 99.1vw;
+    background-color: #004d33;
+
+}
+
+#logo2 {
+    height: 8%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.sign { 
+    height: 1000px;
+
+}
+
+.cross {
+    font-size: 300%;
+    font-family: cupid;
+    padding-left: 40%;
+    padding-top: -50%;
+    z-index: 998;
+}
+
+.main{
+    height: 100%;
+    padding-left: 10%;
+}
